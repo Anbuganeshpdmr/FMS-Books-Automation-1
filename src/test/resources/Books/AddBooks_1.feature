@@ -19,7 +19,7 @@ Feature: Features after added the books
     Given add book with valid file from location and submit
       | C:\Users\banbuganesan\IdeaProjects\FMS-Books-Automation-1\src\test\resources\Books_test files\ | anbu File.pdf |
     Then verify the download icon and download the file
-    And Ensure the downloaded file is as same as upload
+    And Ensure the downloaded file is as same as uploaded
 
 
   @Test
