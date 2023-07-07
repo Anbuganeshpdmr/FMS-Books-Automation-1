@@ -252,7 +252,7 @@ public class AddBooks_1 {
 
     @And("verify the presence in Fresh {string} AuthorRevisions {string} printWeb {string} and wordConversion {string}")
     public void verifyThePresenceInFreshAuthorRevisionsPrintWebAndWordConversion(String expInFresh, String expInAuthRev, String expInPrintWeb, String wordConv) throws InterruptedException {
-
+//**
         homePage.freshPaginationSL();
         stockListPage = new StockListPage();
         Assert.assertEquals(stockListPage.isBoookAvailable(currentBookName),Boolean.valueOf(expInFresh));
@@ -272,6 +272,7 @@ public class AddBooks_1 {
 
         homePage.returnToDashboard();
     }
+
 
 //**************************************************************************************************************
 //**************************************************************************************************************

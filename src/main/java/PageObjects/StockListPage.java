@@ -58,6 +58,7 @@ public class StockListPage extends BaseClassFMS {
         }
 
     }
+
     public void navigateToAssignChapter(String bookName) throws InterruptedException {
 
 
